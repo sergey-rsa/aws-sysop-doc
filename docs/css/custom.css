@@ -11,12 +11,65 @@ input[type="checkbox"] {
   margin-right: 10px;
 }
 
-.md-grid {
-  max-width: 1000px;
+
+.md-sidebar--primary:empty {
+  display: none;
 }
 
+
+.md-content {
+  margin-left: 0;
+}
+
+
 .md-typeset table:not([class]) {
-  display: block;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
   overflow-x: auto;
-  white-space: nowrap;
+}
+
+
+.md-typeset th,
+.md-typeset td {
+  word-break: break-word;
+}
+
+
+.md-typeset table:not([class]) {
+  table-layout: fixed;
+  width: 100%;
+}
+
+
+.md-typeset th:nth-child(1),
+.md-typeset td:nth-child(1) {
+  width: 220px;
+}
+
+
+.md-typeset th:nth-child(2),
+.md-typeset td:nth-child(2) {
+  width: 60px;
+  text-align: center;
+}
+
+
+.md-typeset th:nth-child(3),
+.md-typeset td:nth-child(3) {
+  width: 30%;
+  word-break: break-word;
+}
+
+
+.md-typeset th:nth-child(4),
+.md-typeset td:nth-child(4) {
+  width: 70%;
+  word-break: break-word;
+}
+
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  padding: 6px 10px;
 }

@@ -1,4 +1,5 @@
 site_name: AWS SysOps Associate Checklist
+site_url: https://sergey-rsa.github.io/aws-sysop-doc/
 theme:
   name: material
   features:

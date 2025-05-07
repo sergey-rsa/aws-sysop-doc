@@ -1,0 +1,20 @@
+site_name: AWS SysOps Associate Checklist
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - content.action.edit
+    - search.suggest
+
+extra_css:
+  - css/custom.css
+
+markdown_extensions:
+  - admonition
+  - toc
+  - pymdownx.details
+  - pymdownx.tasklist
+
+extra_javascript:
+  - js/custom.js

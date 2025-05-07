@@ -1,1 +1,1 @@
-# aws-sysop-doc
+# license CC‑BY 4.0

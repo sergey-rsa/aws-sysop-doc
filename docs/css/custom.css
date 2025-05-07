@@ -10,3 +10,13 @@ input[type="checkbox"] {
   transform: scale(1.5);
   margin-right: 10px;
 }
+
+.md-grid {
+  max-width: 1000px;
+}
+
+.md-typeset table:not([class]) {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
